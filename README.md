@@ -4,7 +4,7 @@ This is a web application that displays the location of vehicular charging stati
 This app uses data provided by [DIGG - Myndigheten för Digital Förvaltning](https://www.dataportal.se/en) (The Agency for Digital Government).
 
 ## Technology Stack
-This application is built using both React and Vue frameworks. It combines the strengths of both to deliver a dynamic and responsive user interface.
+This application is built using React + Vite.
 
 ## Getting Started
 ### Prerequisites
