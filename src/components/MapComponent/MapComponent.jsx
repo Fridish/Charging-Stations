@@ -3,8 +3,10 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import styles from './MapComponent.module.css';
 
-function MapComponent() {
+function MapComponent(fetchdata) {
 
+  const ChargingStations = fetchdata.fetchData;
+  console.log(ChargingStations);
   const mapContainerRef = useRef();
   const mapRef = useRef();
   const defaultOrigin = [13.846121, 58.390278]; //Skövde coordinates
