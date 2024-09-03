@@ -1,0 +1,23 @@
+.base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+}
+.header {
+    margin-top: 10rem;
+    font-size: 52px;
+}
+.paragraph{
+    color: var(--paragraph-color);
+    font-family: var(--paragraph-font-family);
+    font-weight: var(--paragraph-font-weight);
+    font-style: var(--paragraph-font-style);
+    font-size: var(--paragraph-font-size);
+}
+.button {
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 1rem;
+}

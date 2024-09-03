@@ -4,4 +4,26 @@ width: 100vw;
 display: flex;
 margin: 0;
 padding: 0;
+
+/* background style  */
+background: rgb(1,12,22);
+background: linear-gradient(135deg, rgba(1,12,22,1) 0%, rgba(56,11,97,1) 59%);  
+
+/* default font style  */
+color: var(--default-color);
+font-family: "Staatliches", sans-serif;
+font-weight: 400;
+font-style: normal; 
+
+/* colors */
+--input-border-color: #abfc54;
+--default-color: #abfc54;
+--paragraph-color: white;
+
+/* paragraph styles */
+--paragraph-font-family: "Space Mono", monospace;
+--paragraph-font-weight: 400;
+--paragraph-font-style: normal;
+--paragraph-font-size: 12px;
 }
+
