@@ -4,7 +4,7 @@ This is a web application that displays the location of vehicular charging stati
 This app uses data provided by [DIGG - Myndigheten för Digital Förvaltning](https://www.dataportal.se/en) (The Agency for Digital Government).
 
 ## Technology Stack
-This application is built using React + Vite, and it uses the Mapbox-plugin.
+This application is built using React + Vite, and it also uses Mapbox to render a map.
 
 ## Getting Started
 ### Prerequisites
