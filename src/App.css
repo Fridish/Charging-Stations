@@ -6,8 +6,16 @@ margin: 0;
 padding: 0;
 
 /* background style  */
-background: rgb(1,12,22);
-background: linear-gradient(135deg, rgba(1,12,22,1) 0%, rgba(56,11,97,1) 59%);  
+background: linear-gradient(90deg, 
+    rgba(1,12,22,1) 0%,      /* Color A */
+    rgba(56,11,97,1) 25%,    /* Color B */
+    rgba(1,12,22,1) 50%,     /* Color A */
+    rgba(56,11,97,1) 75%,    /* Color B */
+    rgba(1,12,22,1) 100%     /* Color A */
+  );
+background-size: 200% 100%; /* Make the background wider for smooth animation */
+background-repeat: repeat; /* Repeat the gradient across the width */
+animation: moveBackground 10s linear infinite; /* Continuous and seamless animation */
 
 /* default font style  */
 color: var(--default-color);
@@ -27,3 +35,12 @@ font-style: normal;
 --paragraph-font-size: 12px;
 }
 
+@keyframes moveBackground {
+    0% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  

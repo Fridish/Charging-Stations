@@ -5,6 +5,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import NotFound from './pages/NotFound/NotFound';
 import Home from './pages/Home/Home';
 import Map from './pages/Map/Map';
+import About from './pages/About/About';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/map" element={<Map/>} />
+      <Route path="/about" element={<About/>} />
       <Route path="*" element={<NotFound />} />
     </Routes>
     </Suspense>
