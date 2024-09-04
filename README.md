@@ -25,5 +25,8 @@ npm run dev
 ```
 This will start the application, and you can view it in your web browser at http://localhost:3000 (or whichever port is specified in your configuration).
 
+## Contributing 
+If you want to contribute to this repo, make sure you follow the [contribution guidelines](/CONTRIBUTING.md) and [code of conduct](/CODE_OF_CONDUCT.md).
+
 ## License
 This project is licensed under the MIT License.
