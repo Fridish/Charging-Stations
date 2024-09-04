@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: #33333300; /* Dark background color */
+    height: 60px; /* Navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Stick to the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Padding on the sides */
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links:hover {
+    color: #abfc54; /* Change color on hover */
+  }
+  
+  .icon-button {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    fill: #fff; /* Ensure the icon color is white */
+  }
+  
+  .icon-button:hover .icon {
+    fill: #abfc54; /* Change icon color on hover */
+  }
