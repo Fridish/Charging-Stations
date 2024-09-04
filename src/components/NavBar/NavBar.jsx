@@ -18,7 +18,7 @@ function NavBar() {
           </li>
         </ul>
         <a href="https://github.com/Fridish/Charging-Stations" target="_blank" rel="noopener noreferrer" className="icon-button">
-          <img src="public\github.svg" alt="GitHub" className="icon"/>
+          <img src="public\github-mark-white.svg" alt="GitHub" className="icon"/>
         </a>
       </div>
     </nav>
