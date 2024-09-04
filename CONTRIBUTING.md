@@ -29,9 +29,9 @@ You can contribute with enhancements, new features, maintenance. But please, mak
 ## Directions for Contributing to this repo: 
 
 ### 1. Create or claim an issue. 
-Before you do any coding, please claim an issue. To claim an issue, ask to be assigned an existing issue, or create an issue of your own. Pull requests that does not have a corresponding issue will not be merged. 
+Before you do any coding, please claim an issue. To claim an issue, ask to be assigned an existing issue, or create an issue of your own. Pull requests that does not have a corresponding issue will not be merged. If you are working on multiple issues, please create a separate pull request for each feature to make code review easier. Single pull requests that include multiple issues will generally not be merged. 
 
-If you have an idea of a change or imporvement, feel free to create an issue.
+If you have an idea of a change or improvement, feel free to create an issue.
 
 These are the steps to create an issue to be assigned to:
 
@@ -40,7 +40,7 @@ These are the steps to create an issue to be assigned to:
 4. Ask to be assigned your issue in the discussion.
 
 ### 2. Fork the repo and create a branch
-### Make Your Own Copy of the Repository Code To Work On:
+#### Make Your Own Copy of the Repository Code To Work On:
 
 1. Select "Fork" in the top-right menu.
 2. Ensure that you are forking from the main branch.
