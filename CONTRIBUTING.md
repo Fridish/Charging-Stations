@@ -29,15 +29,15 @@ You can contribute with enhancements, new features, maintenance. But please, mak
 ## Directions for Contributing to this repo: 
 
 ### 1. Create or claim an issue. 
-Before you do any coding, please claim an issue. To claim an issue, ask to be assigned an existing issue, or create an issue of your own. Pull requests that does not have a corresponding issue will not be merged. If you are working on multiple issues, please create a separate pull request for each feature to make code review easier. Single pull requests that include multiple issues will generally not be merged. 
+Before you do any coding, please claim an issue. To claim an issue, ask to be assigned an existing issue, or create an issue of your own and wait for the issue to be approved and assigned to you. Pull requests that does not have a corresponding issue will not be merged. If you are working on multiple issues, please create a separate pull request for each feature to make code review easier. Single pull requests that include multiple issues will generally not be merged. 
 
-If you have an idea of a change or improvement, feel free to create an issue.
+If you have an idea of a change or improvement, feel free to create an issue, and wait for the issue to be approved.
 
 These are the steps to create an issue to be assigned to:
 
-1. Check that your issue doesn't already exist.
-3. If your issue is complex, consider breaking it into multiple smaller issues.
-4. Ask to be assigned your issue in the discussion.
+1. Check that your issue doesn't already exist. Make sure it properly explains the feature/bug/etc. 
+2. If your issue is complex, consider breaking it into multiple smaller issues.
+3. Ask to be assigned your issue in the discussion. Do not start working on an issue before you get the approval.
 
 ### 2. Fork the repo and create a branch
 #### Make Your Own Copy of the Repository Code To Work On:
@@ -70,7 +70,7 @@ If the default branch of the repository you forked from has been updated (referr
 
 Before pushing to gitHub, make sure that your fork is up to date and that there are no unwanted files included in the push. You could use the `git status` command to verify that the right files are being pushed.
 
-Finally, submit your pull request, make sure to describe the changes in your pull request so that others understand the changes made, and be available for discussions that may arise and to make suggested changes that may be required before merging.
+Finally, submit your pull request, make sure to describe the changes in your pull request so that others understand the changes made and be available for discussions that may arise and to make suggested changes that may be required before merging. It is important that you describe the changes in your pull request so that it is easier to review. If your changes are visual, make sure to attach screenshots of the changes you have made.
 
 Now you can wait for the PR to be merged and your changes will be available in the project on github, wohoo! 
 
